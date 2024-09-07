@@ -1,0 +1,8 @@
+<div>
+  <h2>Círculo</h2>
+  <label for="radioCirculo">Radio:</label>
+  <input type="number" id="radioCirculo" [(ngModel)]="radio" step="any">
+  <button (click)="calcular()">Calcular</button>
+  <p *ngIf="area !== undefined">Área: {{ area.toFixed(2) }}</p>
+  <p *ngIf="perimetro !== undefined">Perímetro: {{ perimetro.toFixed(2) }}</p>
+</div>

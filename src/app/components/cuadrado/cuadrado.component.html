@@ -1,0 +1,8 @@
+<div>
+  <h2>Cuadrado</h2>
+  <label for="ladoCuadrado">Lado:</label>
+  <input type="number" id="ladoCuadrado" [(ngModel)]="lado" step="any">
+  <button (click)="calcular()">Calcular</button>
+  <p *ngIf="area !== undefined">Área: {{ area.toFixed(2) }}</p>
+  <p *ngIf="perimetro !== undefined">Perímetro: {{ perimetro.toFixed(2) }}</p>
+</div>

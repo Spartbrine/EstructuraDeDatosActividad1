@@ -1,0 +1,41 @@
+/* Estilo general para la página de inicio */
+.home-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin: 0;
+}
+
+.info {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: inline-block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.info p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.info strong {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
